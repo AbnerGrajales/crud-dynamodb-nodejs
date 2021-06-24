@@ -1,0 +1,19 @@
+{
+  "TableName": "CLIENT",
+  "KeySchema": [
+    {
+      "AttributeName": "clientId",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "clientId",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 1,
+    "WriteCapacityUnits": 1
+  }
+}

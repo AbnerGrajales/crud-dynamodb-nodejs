@@ -1,0 +1,7 @@
+# Directories
+node_modules/
+docker/
+dist/
+
+# Files
+config/config.js
